@@ -1,4 +1,4 @@
-# data_ingestion_linkedin_webscraping
+# linkedin_webscraping
 
 This is the first step of a full project called "LinkedIn Job Posting Analysis" and consists of a data ingestion (Extract and Load) procedure to retrieve information about jobs requirements in the data fields (Data Science, Data Engineering, Data Analysis, etc).
 
