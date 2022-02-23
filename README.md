@@ -10,7 +10,7 @@ Then, looping through that list and using BeautifulSoup I was able to get the Jo
 
 Finally, after some small validation, the data is ready to be stored into a database. For this, I created a PostgreSQL connection and a table using the sqlalchemy library to write SQL in Python. We can see the results in the picture below:
 
-<img width="985" alt="jobs_in_database" src="https://user-images.githubusercontent.com/79810760/150281013-32e752cc-2353-43df-b653-e203fe044255.png">
+<img width="1022" alt="Captura de Tela 2022-02-23 às 16 54 07" src="https://user-images.githubusercontent.com/79810760/155397783-4efe4a91-b8a3-4bd9-9c50-077e109e6339.png">
 
 Despite we're already able to make some Data Analysis and maybe some Machine Learning using the data we have, I want to stress that this is an ongoing project for some reasons:
 
