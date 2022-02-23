@@ -8,15 +8,14 @@ Then, looping through that list and using BeautifulSoup I was able to get the Jo
 
 <img width="1317" alt="jobs_dataframe" src="https://user-images.githubusercontent.com/79810760/150280045-99c27787-1aee-4f7e-aa55-f38c2f81f6e1.png">
 
-Finally, after some small validation, the data is ready to be stored into a database. For this, I created a SQLite connection and a table using the sqlalchemy library to write SQL in Python. We can see the results in the picture below:
+Finally, after some small validation, the data is ready to be stored into a database. For this, I created a PostgreSQL connection and a table using the sqlalchemy library to write SQL in Python. We can see the results in the picture below:
 
 <img width="985" alt="jobs_in_database" src="https://user-images.githubusercontent.com/79810760/150281013-32e752cc-2353-43df-b653-e203fe044255.png">
 
 Despite we're already able to make some Data Analysis and maybe some Machine Learning using the data we have, I want to stress that this is an ongoing project for some reasons:
 
-- First, I want to migrate these data from SQLite to a PostgreSQL database (so I can have more freedom to edit it) and create relational tables, using an efficient way to relate them;
--  Second, maybe is it possible to refine a little bit more the description column and normalize all the table;
--  Last but not least, this is just the first step of a bigger project, as I said earlier. So, we'll probably gonna make a lot of changes along the way, even though we may still use the EtLT pattern to do the engineering.
+-  First, maybe is it possible to refine a little bit more the description column and normalize all the table;
+-  Second, this is just the first step of a bigger project, as I said earlier. So, we'll probably gonna make a lot of changes along the way, even though we may still use the EtLT pattern to do the engineering.
 
 ## Dependencies
 This project was made using Python 3.10.0
